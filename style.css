@@ -1,8 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-body {
-    background-image: url("https://oogabooga5.github.io/images/background.jpg");
-    color: white;
+*{
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #050046;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.logo {
+    color: rgb(244,244,244);
+    text-transform: uppercase; 
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: rgb(244,244,244);
     text-decoration: none;
-    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main {
+    margin: 5px; 
+    padding: 5px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
