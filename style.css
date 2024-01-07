@@ -10,7 +10,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #050046;
+    background-color: #002989;
 }
 
 nav ul {
@@ -37,12 +37,12 @@ nav ul {
 }
 
 .main {
-    margin: 5px; 
-    padding: 5px;
+    margin: 7px; 
+    padding: 7px;
 }
 
 body {
-    background-color: black;
+    background-color: rgb(21, 0, 61);
     color: white;
 }
 
